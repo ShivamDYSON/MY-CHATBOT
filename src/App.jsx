@@ -4,6 +4,7 @@ import ChatSession from './components/ChatSession';
 import ChatWindow from './components/ChatWindow';
 import './styles/App.css';
 
+
 // Error Boundary Component to Prevent Blank Pages
 class ErrorBoundary extends React.Component {
     state = { hasError: false };
